@@ -33,6 +33,10 @@ RM=`which rm`
 CAT=`which cat`
 SED=`which sed`
 
+export GTK_IM_MODULE=fcitx
+export QT_IM_MODULE=fcitx
+export XMODIFIERS=@im=fcitx
+
 if [ -z "$UNAME" -o -z "$GREP" -o -z "$CUT" -o -z "$MKTEMP" -o -z "$RM" -o -z "$CAT" -o -z "$SED" ]; then
   message "Required tools are missing - check beginning of \"$0\" file for details."
   exit 1
