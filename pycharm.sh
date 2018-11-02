@@ -33,6 +33,7 @@ RM=`which rm`
 CAT=`which cat`
 SED=`which sed`
 
+# 解决pycharm里面无法输入中文
 export GTK_IM_MODULE=fcitx
 export QT_IM_MODULE=fcitx
 export XMODIFIERS=@im=fcitx
