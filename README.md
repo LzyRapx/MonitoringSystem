@@ -7,7 +7,7 @@ prometheus:
 ```
 node-exporter:
 ```
-sudo systemctl start node-exporter
+sudo systemctl start node_exporter
 ```
 Grafana:
 ```
