@@ -12,5 +12,6 @@ sudo systemctl start node_exporter
 ```
 sudo systemctl start grafana-server
 ```
+## prometheus架构：
 ![prometheus](https://github.com/LzyRapx/MonitoringSystem/blob/master/screenshot/prometheus.png)
 
