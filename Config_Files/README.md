@@ -1,5 +1,6 @@
 ### prometheus的配置：
 - prometheus.yml
+  - 这是prometheus-server的配置
 - alert.rules
 - prometheus_scrape_configs.yml
 
