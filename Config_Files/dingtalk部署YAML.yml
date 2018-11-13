@@ -19,7 +19,7 @@ spec:
       - image: timonwong/prometheus-webhook-dingtalk:master
         name: prometheus-webhook-dingtalk
         args:
-        - "--ding.profile=webhook=https://oapi.dingtalk.com/robot/send?access_token=4f451d593d90d1b6c3c91b979c6bccd58150053834729df27f3caf4c52270d16"
+        - "--ding.profile=webhook=<请自行填写属于你的access token>"
         - "--web.listen-address=:8080"
         ports:
         - containerPort: 8080
