@@ -1,4 +1,4 @@
-# Monitoring System（Just a editorial）
+# Monitoring System（Just a Tutorial，Only for learning）
 ### Command:
 启动prometheus:
 ```
